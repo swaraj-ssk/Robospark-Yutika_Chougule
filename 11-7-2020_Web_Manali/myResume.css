@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("resume_imgs/bg2.jpg") fixed no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.profile-img{
+    width: 30%;
+    height: 50%;
+    float: right;
+}
+.profile-img h2{
+    color: ivory;
+    position: absolute;
+    top:420px;
+}
+#skills{
+    color: ivory;
+    font-size: large;
+    position: absolute;
+    top:460px;
+}
+.profile-img img{
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin-top: 40px;
+    margin-right:30px;
+}
+.profile-info{
+    color: ivory;
+    width: 60%;
+    height:100%;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+.profile-info h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#about{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+#projects h2{
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.project-title img{
+    height: 7%;
+    margin: 5px;
+}
+.project-title small{
+    padding-top: 10px;
+    display: block;
+    color: black;
+}
+.project-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display:inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    text-align: center;
+    color: black;
+    background-color:whitesmoke;
+}
+#education h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+#education{
+    padding: 0 30px ;
+    margin-bottom: 15px;
+    font-size: large;
+    margin-top: 15px;
+    align-items: center;
+}
+.contact{
+    float: left;
+    margin-top: 20px;
+    width: 65%;
+}
+.contact img{
+    width:20px;
+    margin: -5px 10px;
+}
+.contact span
+{
+    margin: 5%;
+}
+@media only screen and (max-width:900px)
+{
+    .profile-info{
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img{
+        width: 100%;
+    }
+}
